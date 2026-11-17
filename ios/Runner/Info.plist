@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Attendence</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>attendence</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	
+	<!-- Permission Descriptions -->
+	<key>NSCameraUsageDescription</key>
+	<string>Camera access is required to capture photos for attendance marking and face recognition.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location access is required to verify your attendance location during check-in.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location access is required to verify your attendance location and enable geofencing features.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location access is required to verify your attendance location and enable automatic check-in.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Face ID is used to securely verify your identity for biometric login and attendance marking.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library access is needed to save attendance photos and export reports.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Photo library access is needed to save attendance photos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone access may be needed for video calls with team members.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be used to deliver personalized attendance reminders and notifications.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Motion sensors help detect your physical presence at the office location.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Local network access is needed for office WiFi detection and verification.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Contacts access helps you quickly find and connect with colleagues.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Calendar access is needed to sync leave requests and attendance schedules.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Reminders access helps you stay on top of attendance requirements.</string>
+	
+	<!-- Background Modes -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>processing</string>
+	</array>
+	
+	<!-- Notification Settings -->
+	<key>UIUserNotificationSettings</key>
+	<dict>
+		<key>UIUserNotificationTypeAlert</key>
+		<true/>
+		<key>UIUserNotificationTypeBadge</key>
+		<true/>
+		<key>UIUserNotificationTypeSound</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

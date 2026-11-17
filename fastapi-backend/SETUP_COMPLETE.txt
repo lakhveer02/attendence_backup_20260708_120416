@@ -1,0 +1,42 @@
+================================================================================
+SQUADMINDS PRIVATE LIMITED - Setup Complete
+================================================================================
+
+Company: SQUADMINDS PRIVATE LIMITED
+Company ID: b090d51d-3a18-4a0a-8c18-25765fc43456
+
+LOGIN CREDENTIALS:
+--------------------------------------------------------------------------------
+
+Chetan Batra (company_admin)
+Email: chetan@squadminds.com
+Password: Ceo@7890
+
+Pryanshi (hr_manager)
+Email: pryanshi@squadminds.com
+Password: Hr@2024Squad
+
+Deepak Batra (hr_manager)
+Email: deepak.batra@squadminds.com
+Password: Deepak@2024Squad
+
+Dev Gangwar (manager)
+Email: dev.gangwar@squadminds.com
+Password: Dev@2024Squad
+
+Gurmeet Singh (employee)
+Email: gurmeet.singh@squadminds.com
+Password: Gurmeet@2024Squad
+
+Abha Sharma (employee)
+Email: abha.sharma@squadminds.com
+Password: Abha@2024Squad
+
+Harman Preet (employee)
+Email: harman.preet@squadminds.com
+Password: Harman@2024Squad
+
+Manjinder Singh (employee)
+Email: manjinder.singh@squadminds.com
+Password: Manjinder@2024Squad
+

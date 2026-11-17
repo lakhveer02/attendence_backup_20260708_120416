@@ -1,0 +1,30 @@
+================================================================================
+🔧 COPY AND PASTE THIS INTO SUPABASE SQL EDITOR
+================================================================================
+
+ALTER TABLE profiles DISABLE ROW LEVEL SECURITY;
+ALTER TABLE companies DISABLE ROW LEVEL SECURITY;
+ALTER TABLE departments DISABLE ROW LEVEL SECURITY;
+ALTER TABLE attendance DISABLE ROW LEVEL SECURITY;
+ALTER TABLE leaves DISABLE ROW LEVEL SECURITY;
+
+SELECT 
+  tablename,
+  CASE 
+    WHEN rowsecurity = false THEN '✅ DISABLED (Login will work)'
+    ELSE '⚠️ ENABLED (Login blocked)'
+  END as status
+FROM pg_tables
+WHERE schemaname = 'public'
+AND tablename IN ('profiles', 'companies', 'departments', 'attendance', 'leaves')
+ORDER BY tablename;
+
+================================================================================
+✅ After running this, login should work immediately!
+================================================================================
+
+Test with:
+  Email: lakhveer.singh@squadminds.com
+  Password: Lakhveer@2024Squad
+
+================================================================================
